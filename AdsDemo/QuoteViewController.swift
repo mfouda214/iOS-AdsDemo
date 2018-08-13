@@ -28,7 +28,7 @@ class QuoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bannerView.adUnitID = "AD_UNIT_ID"
+        bannerView.adUnitID = "ca-app-pub-2975668811067685/1240224784"
         bannerView.rootViewController = self
         let request = GADRequest()
         request.testDevices = [kGADSimulatorID]
